@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto', sans-serif!important;
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.mainscreen
+{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+    flex-direction: column;
+    background-color: #DFDBE5;
+    background-image: url("https://wallpaperaccess.com/full/3063067.png");
+    color:#963E7B;
+}
+
+.card_checkout {
+	width: 60rem;
+    /* margin: auto; */
+    margin-top: 10px;
+    background: white;
+    position:center;
+    align-self: center;
+    top: 50rem;
+    border-radius: 1.5rem;
+    box-shadow: 4px 3px 20px #3535358c;
+    display:flex;
+    flex-direction: row;
+    
+}
+
+.leftside_checkout {
+	background: white;
+	width: 25rem;
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+	border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.cinema {
+    object-fit: cover;
+	width: 20em;
+    height: 20em;
+    border-radius: 100%;
+}
+
+.rightside_checkout {
+    background-color: black;
+	width: 35rem;
+	border-bottom-right-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    padding: 0rem 2rem 0rem 3rem;
+}
+
+p{
+    display:block;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: .8rem 0;
+}
+
+.inputbox_checkout
+{
+    color:#030303;
+	width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    margin-bottom: 1rem;
+    border-radius: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #615a5a;
+    font-size: 1.1rem;
+    font-weight: 500;
+  outline:none;
+}
+
+.expcvv {
+    display:flex;
+    justify-content: space-between;
+    padding-top: 0.6rem;
+}
+
+.expcvv_text{
+    padding-right: 1rem;
+}
+.expcvv_text2{
+    padding:0 1rem;
+}
+
+.button{
+    background: linear-gradient(
+135deg
+, #753370 0%, #298096 100%);
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width:100%;
+    letter-spacing: .11rem;
+    outline:none;
+}
+
+.button:hover
+{
+	transform: scale(1.05) translateY(-3px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card_checkout{
+        flex-direction: column;
+        width: auto;
+      
+    }
+
+    .leftside_checkout{
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+      border-top-right-radius:0;
+      border-radius:0;
+    }
+
+    .rightside_checkout{
+        width:auto;
+        border-bottom-left-radius: 1.5rem;
+        padding:0.5rem 3rem 0rem 2rem;
+      border-radius:0;
+    }
+}
+
+  .wrapper-2{
+    padding :30px;
+    text-align:center;
+  }
+   .wrapper-2 h1{
+      font-family: 'Kaushan Script', cursive;
+    font-size:4em;
+    letter-spacing:3px;
+    color:#5892FF ;
+    margin:0;
+    margin-bottom:20px;
+  }
+  .wrapper-2 p{
+    margin:0;
+    font-size:1.3em;
+    color:#aaa;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing:1px;
+  }
+  .go-home{
+    color:#fff;
+    background:#5892FF;
+    border:none;
+    padding:10px 50px;
+    margin:30px 0;
+    border-radius:30px;
+    text-transform:capitalize;
+    box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+  }
+
+  
+  @media (min-width:360px){
+    .wrapper-2 h1{
+      font-size:4.5em;
+    }
+    .go-home{
+      margin-bottom:20px;
+    }
+  }
+  

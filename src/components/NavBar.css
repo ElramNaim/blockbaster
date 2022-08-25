@@ -1,0 +1,183 @@
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  i.fa.fa-shopping-cart.icon{
+      color: white;
+      font-size: 25px;
+  }
+  button.navCart {
+   
+    /* padding: 10px; */
+    height: 62px;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-left: 15px;
+    /* padding-right: 27px; */
+    
+   
+  }
+  button.navCart,i.navCart{
+    margin-right: 15px;
+    background-color: #333;
+    cursor: pointer;
+  }
+ 
+
+
+  
+  a {
+      text-decoration: none;
+      color: #edf0f3;
+  }
+  
+  
+  
+  .logo {
+      margin: 0;
+      font-size: 1.45em;
+      /* background-color:white */
+      
+  }
+  .logo img{
+      width: 250px;
+      height: 65px;
+  }
+  
+  .main-nav {
+      margin-top: 5px;
+     
+  
+  }
+  .logo a,
+  .main-nav a {
+      padding: 10px 15px;
+      text-transform: uppercase;
+      text-align: center;
+      display: block;
+     
+  }
+  .startNav{
+    display: flex;
+  }
+  .main-nav a {
+      color: #34495e;
+      font-size: .99em;
+      padding-left: 0px;
+      padding-bottom: 5px;
+      border-radius: 8px;
+      /* padding-right: 27px; */
+  }
+  
+  .main-nav a:hover {
+      color: #718daa;
+  }
+  .header {
+	
+	
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    color: #34495e;
+    position: sticky;
+    top: 0; 
+
+}
+.cart_badge{
+    color: white;
+    border-radius: 50%;
+    
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: blue;
+    margin-left: 35px;
+    width: 21px;
+    height: 20px;
+}
+/* a.i_smallPage{
+    padding-right: 15px;
+    padding-left: 0;
+} */
+/* .hamburger_menu{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 13px;
+}
+.hamburger_menu div{
+width: 100%;
+height: 3px;
+background-color:black;
+margin-right: 20px;
+}
+.hamburger_menu:hover div{
+    background: white;
+} */
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+@media(max-width: 1024px){
+    .startNav{
+        display: none;
+        
+    }
+    .logo {
+       
+        background-color: #f4f4f4;
+        
+    }
+    .header,
+	.main-nav {
+		display: flex;
+
+	}
+    .header {
+		/* flex-direction: column; */
+		align-items: center;
+        flex-direction: row;	
+		justify-content: space-between;
+	}
+   
+}
+
+@media (min-width: 1024px) {
+	.header,
+	.main-nav {
+		display: flex;
+
+	}
+	.header {
+		/* flex-direction: column; */
+		align-items: center;
+        flex-direction: row;	
+		justify-content: space-between;
+	}
+   
+}
+
+/* @media (min-width: 1024px) {
+	.header {
+		flex-direction: row;	
+		justify-content: space-between;
+	}
+   
+    
+} */

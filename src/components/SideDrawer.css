@@ -1,0 +1,117 @@
+.sidedrawer{
+    width: 30%;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 200;
+    transform: translateX(100%);
+    transition: all 0.3s ease-in;
+    overflow-y: auto;
+    border: 2px solid #545f44;
+   
+}
+.sidedrawer.show{
+    transform: translateX(0);
+}
+a.previous,a.next {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a.previous:hover ,a.next:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #3827d1;
+    color: white;
+    cursor: pointer;
+  }
+  .next {
+    background-color: #3827d1;
+    color: white;
+  }
+
+@media (max-width: 1024px){
+    .sidedrawer{
+        width: 50%;
+    }
+    img.sad_cart_img{
+        width: 60%;
+        height: 80%;
+        padding-left: 30%;
+    }
+    .sad_empty-cart{
+        padding: 0;
+     
+    }
+    .full_cart{
+        grid-template-columns: 2fr 4fr 2fr 3fr 1fr;
+
+    }
+}
+/*******************************************************************************/
+.sideCartHeader{
+    background-color: black;
+	
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	
+	border-radius: 5px;
+    color: white;
+    
+    margin:0;
+    width: 100%;
+
+    padding-top: 10%;
+    box-shadow: 0 1px 4px rgba(0, 0,0, 0.4); 
+    
+   
+}
+.sideCartHeader h1{
+   
+    color: white;
+    padding-bottom: 10%;
+    padding-left: 30%;
+    margin-top: 0;
+
+}
+img.sad_cart_img{
+    padding-left: 20%;
+   
+}
+.full_cart{
+    display: grid;
+    grid-template-columns: 3fr 5fr 4fr 3fr 1fr;
+    border: 1px solid #545f44;
+    margin-bottom: 10px;
+}
+.full_cart_cont{
+    border: 2px solid white;
+}
+img.img_side_cart{
+    height: 80px;
+    width: 70px;
+}
+.footer_totalprice{
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    
+   
+}
+.item_title{
+    text-overflow: ellipsis; 
+}
+.trash{
+    cursor: pointer;
+    height:20px;
+    margin-top: 30px;
+}

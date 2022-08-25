@@ -1,0 +1,6 @@
+
+  @media(max-width:960px){
+    .video-responsive  iframe{
+        width: 250px;
+    }
+  }
