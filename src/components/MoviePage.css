@@ -24,7 +24,7 @@
 .video a {
     position:absolute;
     display: block;
-    background: url(C:\web\game\blockbuster\src\images\play-icon-white-png-4.jpg);
+    background: url(../images/play-icon-white-png-4.jpg);
     height: 369.156px;
     width: 250px;
     top: 236px;
